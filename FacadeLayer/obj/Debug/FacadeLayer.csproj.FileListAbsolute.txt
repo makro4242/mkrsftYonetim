@@ -1,0 +1,9 @@
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.csprojResolveAssemblyReference.cache
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\FacadeLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\FacadeLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\Dapper.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\EntityLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\EntityLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\Dapper.xml
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.pdb

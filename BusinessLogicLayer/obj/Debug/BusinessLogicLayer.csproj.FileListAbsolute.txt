@@ -1,0 +1,11 @@
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\EntityLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\EntityLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\FacadeLayer.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\Dapper.dll
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\FacadeLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\bin\Debug\Dapper.xml
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojResolveAssemblyReference.cache
