@@ -8,7 +8,7 @@ namespace EntityLayer
     public class Kullanicilar : myClass
     {
         public int id { get; set; }
-        public string AdSoyad { get; set; }
+        public string adsoyad { get; set; }
         public string telefon { get; set; }
         public string tcno { get; set; }
         public string gorevi { get; set; }

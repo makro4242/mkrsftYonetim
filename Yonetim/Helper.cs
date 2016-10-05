@@ -17,6 +17,7 @@ namespace Yonetim
         }
         public static void formSave(myClass obj, Control ctrl)
         {
+
             PropertyInfo[] pi = obj.GetType().GetProperties();
             foreach (PropertyInfo item in pi)
             {
@@ -34,7 +35,8 @@ namespace Yonetim
             {
                 if (ctrl.Controls.ContainsKey("txt" + item.Name))
                 {
-                    (ctrl.Controls["txt" + item.Name] as TextBox).Text = item.GetValue(obj).ToString();
+                    string t = item.GetValue(obj) == null ? "" : item.GetValue(obj).ToString();
+                    (ctrl.Controls["txt" + item.Name] as TextBox).Text = t;
 
                 }
             }

@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Xml;
 using System.Data.SqlClient;
+using FacadeLayer;
 
 namespace Yonetim
 {
@@ -23,6 +17,10 @@ namespace Yonetim
             this.Enabled = false;
             lblUyari.Text = "Kontrol Ediliyor..";
             string connstrg = "Data Source=" + txtServer.Text + ";Initial Catalog=" + txtDB.Text + ";Uid=" + txtUserName.Text + ";Password=" + txtPassword.Text + ";";
+            if (txtServer.Text == ".")
+            {
+                connstrg = "Data Source=.;Initial Catalog=" + txtDB.Text + ";Integrated Security=true;";
+            }
             SqlConnection con = new SqlConnection();
             con.ConnectionString = connstrg;
             try
@@ -30,6 +28,7 @@ namespace Yonetim
                 con.Open();
                 Properties.Settings.Default.ConnectionString = connstrg;
                 Properties.Settings.Default.Save();
+            
                 con.Close();
                 MessageBox.Show("Bağlantı bilgileri başarıyla kaydedildi");
             }
@@ -52,10 +51,17 @@ namespace Yonetim
                     string[] arr = Properties.Settings.Default.ConnectionString.Split(';');
                     if (arr.Length >= 4)
                     {
-                        txtServer.Text = arr[0].Split('=')[1];
-                        txtDB.Text = arr[1].Split('=')[1];
-                        txtUserName.Text = arr[2].Split('=')[1];
-                        txtPassword.Text = arr[3].Split('=')[1];
+                        try
+                        {
+                            txtServer.Text = arr[0].Split('=')[1];
+                            txtDB.Text = arr[1].Split('=')[1];
+                            txtUserName.Text = arr[2].Split('=')[1];
+                            txtPassword.Text = arr[3].Split('=')[1];
+                        }
+                        catch (Exception)
+                        {
+                            
+                        }
                     }
                 }
             }

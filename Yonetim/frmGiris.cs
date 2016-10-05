@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using BusinessLogicLayer;
 using EntityLayer;
 using System.ComponentModel.DataAnnotations;
+using FacadeLayer;
 
 namespace Yonetim
 {
@@ -35,15 +36,15 @@ namespace Yonetim
 
         private void btnsunucuayarlari_Click(object sender, EventArgs e)
         {
-            frmSunucu f = new frmSunucu();
+            FacadeLayer.frmSunucu f = new FacadeLayer.frmSunucu();
             f.ShowDialog();
         }
 
         private void frmGiris_Load(object sender, EventArgs e)
         {
-         
-           
-          
+
+
+
 
         }
     }

@@ -9,6 +9,14 @@ namespace FacadeLayer
         {
             return select<Lisanslar>(id);
         }
+        public static List<Lisanslar> selectAll(string columns, IDictionary<string, string> where)
+        {
+            return select<Lisanslar>(columns, where);
+        }
+        public static Lisanslar select(string columns, IDictionary<string, string> where)
+        {
+            return select<Lisanslar>(columns, where) != null ? select<Lisanslar>(columns, where)[0] : null;
+        }
         public static List<Lisanslar> selectAll()
         {
             return selectAll<Lisanslar>();

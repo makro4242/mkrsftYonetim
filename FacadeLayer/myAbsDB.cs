@@ -82,34 +82,37 @@ namespace FacadeLayer
             var sonuc = connection.Query<T>("select * from tbl_" + typeParameterType.Name + " where id=@id", new { id = id }).ToList().FirstOrDefault();
             return sonuc;
         }
-        public static T select<T>(string columns, IDictionary<string, string> where)
+        public static List<T> select<T>(string columns, IDictionary<string, string> where)
         {
             try
             {
                 Type typeParameterType = typeof(T);
                 var connection = DBConnection.con;
+                DynamicParameters prm = new DynamicParameters();
                 string query = "select";
                 query += " " + columns;
                 query += " from tbl_" + typeParameterType.Name;
-                if (where.Count > 0)
+                if (where != null)
                 {
-                    query += " where 1=1";
+                    if (where.Count > 0)
+                    {
+                        query += " where 1=1";
+                        foreach (var item in where)
+                        {
+                            query += " and " + item.Key + "=@" + item.Key;
+                        }
+                    }
                     foreach (var item in where)
                     {
-                        query += " and " + item.Key + "=@" + item.Key;
+                        prm.Add(item.Key, item.Value);
                     }
                 }
-                DynamicParameters prm = new DynamicParameters();
-                foreach (var item in where)
-                {
-                    prm.Add(item.Key, item.Value);
-                }
-                var sonuc = connection.Query<T>(query, prm).FirstOrDefault();
+                var sonuc = connection.Query<T>(query, prm).ToList();
                 return sonuc;
             }
             catch (Exception)
             {
-                return default(T);
+                return default(List<T>);
             }
         }
 

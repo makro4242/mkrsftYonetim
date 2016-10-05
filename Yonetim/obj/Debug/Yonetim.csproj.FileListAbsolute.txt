@@ -22,3 +22,8 @@ C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\bin\Debug
 C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmMusteriEkle.resources
 C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmProjeler.resources
 C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmProjeEkle.resources
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmKullanicilar.resources
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmKullaniciEkle.resources
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmLisanslar.resources
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmLisansEkle.resources
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\Yonetim\obj\Debug\Yonetim.frmLisansBilgileri.resources

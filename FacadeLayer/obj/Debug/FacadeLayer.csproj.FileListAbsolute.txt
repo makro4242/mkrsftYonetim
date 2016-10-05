@@ -7,3 +7,6 @@ C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\D
 C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\Dapper.xml
 C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.dll
 C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.pdb
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\bin\Debug\FacadeLayer.dll.config
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.frmSunucu.resources
+C:\Users\zizoumurat\Documents\GitHub\MakrosoftMuhasebe\Yonetim\FacadeLayer\obj\Debug\FacadeLayer.csproj.GenerateResource.Cache

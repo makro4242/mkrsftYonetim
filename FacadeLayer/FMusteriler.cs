@@ -14,6 +14,14 @@ namespace FacadeLayer
         {
             return select<Musteriler>(id);
         }
+        public static List<Musteriler> selectAll(string columns, IDictionary<string, string> where)
+        {
+            return select<Musteriler>(columns, where);
+        }
+        public static Musteriler select(string columns, IDictionary<string, string> where)
+        {
+            return select<Musteriler>(columns, where) != null ? select<Musteriler>(columns, where)[0] : null;
+        }
         public static List<Musteriler> selectAll()
         {
             return selectAll<Musteriler>();

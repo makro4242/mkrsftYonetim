@@ -34,25 +34,25 @@
             this.btnProjeler = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.nvbarcntrAna = new DevExpress.XtraNavBar.NavBarControl();
-            this.nvbargrpVersiyonlar = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarGroupControlContainer2 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
-            this.btnProjeListesi = new DevExpress.XtraEditors.SimpleButton();
-            this.btnProjeTanimla = new DevExpress.XtraEditors.SimpleButton();
+            this.nvbrgrpLisans = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroupControlContainer4 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
+            this.btnLisanslar = new DevExpress.XtraEditors.SimpleButton();
+            this.btnLisansEkle = new DevExpress.XtraEditors.SimpleButton();
             this.navBarGroupControlContainer1 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.btnmusteriler = new DevExpress.XtraEditors.SimpleButton();
             this.btnmusteriekle = new DevExpress.XtraEditors.SimpleButton();
+            this.navBarGroupControlContainer2 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
+            this.btnProjeListesi = new DevExpress.XtraEditors.SimpleButton();
+            this.btnProjeTanimla = new DevExpress.XtraEditors.SimpleButton();
             this.navBarGroupControlContainer3 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.btnsqlSorguları = new DevExpress.XtraEditors.SimpleButton();
             this.btnguncellemeler = new DevExpress.XtraEditors.SimpleButton();
             this.btnGuncellemeTanim = new DevExpress.XtraEditors.SimpleButton();
-            this.navBarGroupControlContainer4 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
-            this.btnLisanslar = new DevExpress.XtraEditors.SimpleButton();
-            this.btnLisansEkle = new DevExpress.XtraEditors.SimpleButton();
             this.navBarGroupControlContainer5 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.btnklistesi = new DevExpress.XtraEditors.SimpleButton();
             this.btnkullaniciekle = new DevExpress.XtraEditors.SimpleButton();
             this.nvbrGrupfirmalar = new DevExpress.XtraNavBar.NavBarGroup();
-            this.nvbrgrpLisans = new DevExpress.XtraNavBar.NavBarGroup();
+            this.nvbargrpVersiyonlar = new DevExpress.XtraNavBar.NavBarGroup();
             this.nvbrgrupGuncelleme = new DevExpress.XtraNavBar.NavBarGroup();
             this.nvbrgrpKullanici = new DevExpress.XtraNavBar.NavBarGroup();
             ((System.ComponentModel.ISupportInitialize)(this.pnlana)).BeginInit();
@@ -60,10 +60,10 @@
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nvbarcntrAna)).BeginInit();
             this.nvbarcntrAna.SuspendLayout();
-            this.navBarGroupControlContainer2.SuspendLayout();
-            this.navBarGroupControlContainer1.SuspendLayout();
-            this.navBarGroupControlContainer3.SuspendLayout();
             this.navBarGroupControlContainer4.SuspendLayout();
+            this.navBarGroupControlContainer1.SuspendLayout();
+            this.navBarGroupControlContainer2.SuspendLayout();
+            this.navBarGroupControlContainer3.SuspendLayout();
             this.navBarGroupControlContainer5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -131,45 +131,45 @@
             this.nvbarcntrAna.TabIndex = 1;
             this.nvbarcntrAna.Text = "navBarControl1";
             // 
-            // nvbargrpVersiyonlar
+            // nvbrgrpLisans
             // 
-            this.nvbargrpVersiyonlar.Caption = "Projeler";
-            this.nvbargrpVersiyonlar.ControlContainer = this.navBarGroupControlContainer2;
-            this.nvbargrpVersiyonlar.GroupClientHeight = 80;
-            this.nvbargrpVersiyonlar.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.nvbargrpVersiyonlar.LargeImage = ((System.Drawing.Image)(resources.GetObject("nvbargrpVersiyonlar.LargeImage")));
-            this.nvbargrpVersiyonlar.Name = "nvbargrpVersiyonlar";
-            this.nvbargrpVersiyonlar.ItemChanged += new System.EventHandler(this.nvbargrpVersiyonlar_ItemChanged);
+            this.nvbrgrpLisans.Caption = "Lisanslar";
+            this.nvbrgrpLisans.ControlContainer = this.navBarGroupControlContainer4;
+            this.nvbrgrpLisans.GroupClientHeight = 80;
+            this.nvbrgrpLisans.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.nvbrgrpLisans.LargeImage = ((System.Drawing.Image)(resources.GetObject("nvbrgrpLisans.LargeImage")));
+            this.nvbrgrpLisans.Name = "nvbrgrpLisans";
+            this.nvbrgrpLisans.CalcGroupClientHeight += new DevExpress.XtraNavBar.NavBarCalcGroupClientHeightEventHandler(this.nvbrgrpLisans_CalcGroupClientHeight);
             // 
-            // navBarGroupControlContainer2
+            // navBarGroupControlContainer4
             // 
-            this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
-            this.navBarGroupControlContainer2.Controls.Add(this.btnProjeListesi);
-            this.navBarGroupControlContainer2.Controls.Add(this.btnProjeTanimla);
-            this.navBarGroupControlContainer2.Name = "navBarGroupControlContainer2";
-            this.navBarGroupControlContainer2.Size = new System.Drawing.Size(190, 186);
-            this.navBarGroupControlContainer2.TabIndex = 1;
+            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer4.Controls.Add(this.btnLisanslar);
+            this.navBarGroupControlContainer4.Controls.Add(this.btnLisansEkle);
+            this.navBarGroupControlContainer4.Name = "navBarGroupControlContainer4";
+            this.navBarGroupControlContainer4.Size = new System.Drawing.Size(190, 186);
+            this.navBarGroupControlContainer4.TabIndex = 3;
             // 
-            // btnProjeListesi
+            // btnLisanslar
             // 
-            this.btnProjeListesi.Image = ((System.Drawing.Image)(resources.GetObject("btnProjeListesi.Image")));
-            this.btnProjeListesi.Location = new System.Drawing.Point(3, 55);
-            this.btnProjeListesi.Name = "btnProjeListesi";
-            this.btnProjeListesi.Size = new System.Drawing.Size(182, 46);
-            this.btnProjeListesi.TabIndex = 1;
-            this.btnProjeListesi.Text = "Proje Listesi";
-            this.btnProjeListesi.Click += new System.EventHandler(this.btnProjeListesi_Click);
+            this.btnLisanslar.Image = ((System.Drawing.Image)(resources.GetObject("btnLisanslar.Image")));
+            this.btnLisanslar.Location = new System.Drawing.Point(5, 55);
+            this.btnLisanslar.Name = "btnLisanslar";
+            this.btnLisanslar.Size = new System.Drawing.Size(182, 46);
+            this.btnLisanslar.TabIndex = 2;
+            this.btnLisanslar.Text = "Lisans Listeleri";
+            this.btnLisanslar.Click += new System.EventHandler(this.btnLisanslar_Click);
             // 
-            // btnProjeTanimla
+            // btnLisansEkle
             // 
-            this.btnProjeTanimla.Image = ((System.Drawing.Image)(resources.GetObject("btnProjeTanimla.Image")));
-            this.btnProjeTanimla.Location = new System.Drawing.Point(3, 3);
-            this.btnProjeTanimla.Name = "btnProjeTanimla";
-            this.btnProjeTanimla.Size = new System.Drawing.Size(182, 46);
-            this.btnProjeTanimla.TabIndex = 1;
-            this.btnProjeTanimla.Text = "Proje Tanımla";
-            this.btnProjeTanimla.Click += new System.EventHandler(this.btnProjeTanimla_Click);
+            this.btnLisansEkle.Image = ((System.Drawing.Image)(resources.GetObject("btnLisansEkle.Image")));
+            this.btnLisansEkle.Location = new System.Drawing.Point(5, 3);
+            this.btnLisansEkle.Name = "btnLisansEkle";
+            this.btnLisansEkle.Size = new System.Drawing.Size(182, 46);
+            this.btnLisansEkle.TabIndex = 2;
+            this.btnLisansEkle.Text = "Lisans Tanımla";
+            this.btnLisansEkle.Click += new System.EventHandler(this.btnLisansEkle_Click);
             // 
             // navBarGroupControlContainer1
             // 
@@ -200,6 +200,36 @@
             this.btnmusteriekle.TabIndex = 0;
             this.btnmusteriekle.Text = "Müşteri Ekle";
             this.btnmusteriekle.Click += new System.EventHandler(this.btnmusteriekle_Click);
+            // 
+            // navBarGroupControlContainer2
+            // 
+            this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer2.Controls.Add(this.btnProjeListesi);
+            this.navBarGroupControlContainer2.Controls.Add(this.btnProjeTanimla);
+            this.navBarGroupControlContainer2.Name = "navBarGroupControlContainer2";
+            this.navBarGroupControlContainer2.Size = new System.Drawing.Size(190, 186);
+            this.navBarGroupControlContainer2.TabIndex = 1;
+            // 
+            // btnProjeListesi
+            // 
+            this.btnProjeListesi.Image = ((System.Drawing.Image)(resources.GetObject("btnProjeListesi.Image")));
+            this.btnProjeListesi.Location = new System.Drawing.Point(3, 55);
+            this.btnProjeListesi.Name = "btnProjeListesi";
+            this.btnProjeListesi.Size = new System.Drawing.Size(182, 46);
+            this.btnProjeListesi.TabIndex = 1;
+            this.btnProjeListesi.Text = "Proje Listesi";
+            this.btnProjeListesi.Click += new System.EventHandler(this.btnProjeListesi_Click);
+            // 
+            // btnProjeTanimla
+            // 
+            this.btnProjeTanimla.Image = ((System.Drawing.Image)(resources.GetObject("btnProjeTanimla.Image")));
+            this.btnProjeTanimla.Location = new System.Drawing.Point(3, 3);
+            this.btnProjeTanimla.Name = "btnProjeTanimla";
+            this.btnProjeTanimla.Size = new System.Drawing.Size(182, 46);
+            this.btnProjeTanimla.TabIndex = 1;
+            this.btnProjeTanimla.Text = "Proje Tanımla";
+            this.btnProjeTanimla.Click += new System.EventHandler(this.btnProjeTanimla_Click);
             // 
             // navBarGroupControlContainer3
             // 
@@ -239,34 +269,6 @@
             this.btnGuncellemeTanim.TabIndex = 2;
             this.btnGuncellemeTanim.Text = "Versiyon Tanımla";
             // 
-            // navBarGroupControlContainer4
-            // 
-            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
-            this.navBarGroupControlContainer4.Controls.Add(this.btnLisanslar);
-            this.navBarGroupControlContainer4.Controls.Add(this.btnLisansEkle);
-            this.navBarGroupControlContainer4.Name = "navBarGroupControlContainer4";
-            this.navBarGroupControlContainer4.Size = new System.Drawing.Size(190, 186);
-            this.navBarGroupControlContainer4.TabIndex = 3;
-            // 
-            // btnLisanslar
-            // 
-            this.btnLisanslar.Image = ((System.Drawing.Image)(resources.GetObject("btnLisanslar.Image")));
-            this.btnLisanslar.Location = new System.Drawing.Point(5, 55);
-            this.btnLisanslar.Name = "btnLisanslar";
-            this.btnLisanslar.Size = new System.Drawing.Size(182, 46);
-            this.btnLisanslar.TabIndex = 2;
-            this.btnLisanslar.Text = "Lisans Listeleri";
-            // 
-            // btnLisansEkle
-            // 
-            this.btnLisansEkle.Image = ((System.Drawing.Image)(resources.GetObject("btnLisansEkle.Image")));
-            this.btnLisansEkle.Location = new System.Drawing.Point(5, 3);
-            this.btnLisansEkle.Name = "btnLisansEkle";
-            this.btnLisansEkle.Size = new System.Drawing.Size(182, 46);
-            this.btnLisansEkle.TabIndex = 2;
-            this.btnLisansEkle.Text = "Lisans Tanımla";
-            // 
             // navBarGroupControlContainer5
             // 
             this.navBarGroupControlContainer5.Appearance.BackColor = System.Drawing.SystemColors.Control;
@@ -285,6 +287,7 @@
             this.btnklistesi.Size = new System.Drawing.Size(182, 46);
             this.btnklistesi.TabIndex = 3;
             this.btnklistesi.Text = "Kullanıcı Listesi";
+            this.btnklistesi.Click += new System.EventHandler(this.btnklistesi_Click);
             // 
             // btnkullaniciekle
             // 
@@ -294,6 +297,7 @@
             this.btnkullaniciekle.Size = new System.Drawing.Size(182, 46);
             this.btnkullaniciekle.TabIndex = 3;
             this.btnkullaniciekle.Text = "Kullanıcı Ekle";
+            this.btnkullaniciekle.Click += new System.EventHandler(this.btnkullaniciekle_Click);
             // 
             // nvbrGrupfirmalar
             // 
@@ -306,14 +310,15 @@
             this.nvbrGrupfirmalar.Name = "nvbrGrupfirmalar";
             this.nvbrGrupfirmalar.ItemChanged += new System.EventHandler(this.nvbrGrupfirmalar_ItemChanged);
             // 
-            // nvbrgrpLisans
+            // nvbargrpVersiyonlar
             // 
-            this.nvbrgrpLisans.Caption = "Lisanslar";
-            this.nvbrgrpLisans.ControlContainer = this.navBarGroupControlContainer4;
-            this.nvbrgrpLisans.GroupClientHeight = 80;
-            this.nvbrgrpLisans.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.nvbrgrpLisans.LargeImage = ((System.Drawing.Image)(resources.GetObject("nvbrgrpLisans.LargeImage")));
-            this.nvbrgrpLisans.Name = "nvbrgrpLisans";
+            this.nvbargrpVersiyonlar.Caption = "Projeler";
+            this.nvbargrpVersiyonlar.ControlContainer = this.navBarGroupControlContainer2;
+            this.nvbargrpVersiyonlar.GroupClientHeight = 80;
+            this.nvbargrpVersiyonlar.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.nvbargrpVersiyonlar.LargeImage = ((System.Drawing.Image)(resources.GetObject("nvbargrpVersiyonlar.LargeImage")));
+            this.nvbargrpVersiyonlar.Name = "nvbargrpVersiyonlar";
+            this.nvbargrpVersiyonlar.ItemChanged += new System.EventHandler(this.nvbargrpVersiyonlar_ItemChanged);
             // 
             // nvbrgrupGuncelleme
             // 
@@ -332,6 +337,7 @@
             this.nvbrgrpKullanici.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
             this.nvbrgrpKullanici.LargeImage = ((System.Drawing.Image)(resources.GetObject("nvbrgrpKullanici.LargeImage")));
             this.nvbrgrpKullanici.Name = "nvbrgrpKullanici";
+            this.nvbrgrpKullanici.ItemChanged += new System.EventHandler(this.nvbrgrpKullanici_ItemChanged);
             // 
             // frmAnaForm
             // 
@@ -348,10 +354,10 @@
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nvbarcntrAna)).EndInit();
             this.nvbarcntrAna.ResumeLayout(false);
-            this.navBarGroupControlContainer2.ResumeLayout(false);
-            this.navBarGroupControlContainer1.ResumeLayout(false);
-            this.navBarGroupControlContainer3.ResumeLayout(false);
             this.navBarGroupControlContainer4.ResumeLayout(false);
+            this.navBarGroupControlContainer1.ResumeLayout(false);
+            this.navBarGroupControlContainer2.ResumeLayout(false);
+            this.navBarGroupControlContainer3.ResumeLayout(false);
             this.navBarGroupControlContainer5.ResumeLayout(false);
             this.ResumeLayout(false);
 

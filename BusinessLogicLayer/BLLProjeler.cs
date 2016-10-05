@@ -27,5 +27,14 @@ namespace BusinessLogicLayer
         {
             return FProjeler.selectAll();
         }
+
+        public static List<Projeler> selectAll(string columns, IDictionary<string, string> where)
+        {
+            return FProjeler.selectAll(columns, where);
+        }
+        public static Projeler select(string columns, IDictionary<string, string> where)
+        {
+            return FProjeler.select(columns, where);
+        }
     }
 }

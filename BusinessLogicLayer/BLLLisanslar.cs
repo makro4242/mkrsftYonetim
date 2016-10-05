@@ -5,7 +5,7 @@ using FacadeLayer;
 
 namespace BusinessLogicLayer
 {
-    class BLLLisanslar
+    public class BLLLisanslar
     {
         public static int insert(Lisanslar kullanici)
         {
@@ -22,6 +22,14 @@ namespace BusinessLogicLayer
         public static Lisanslar select(int id)
         {
             return FLisanslar.select(id);
+        }
+        public static Lisanslar select(string columns, IDictionary<string, string> where)
+        {
+            return FLisanslar.select(columns, where);
+        }
+        public static List<Lisanslar> selectAll(string columns, IDictionary<string, string> where)
+        {
+            return FLisanslar.selectAll(columns, where);
         }
         public static List<Lisanslar> selectAll()
         {
